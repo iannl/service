@@ -1,0 +1,67 @@
+body { 
+	color: #421; font-weight: bold; font-size: 18px; background: #abc; 
+}
+span { 
+	color: #711; 
+} 
+::-webkit-input-placeholder { 
+	color: #711 
+}
+#main {
+	opacity: 0.3;
+	position: fixed;
+	width: 200px;
+	bottom: 10px;
+	right: 10px;
+	padding: 30px;
+	background: #EE4;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #fdfdfd;
+	transition: 200ms;
+}
+#main:hover{opacity: 1;}
+#main div { 
+	margin: 10px; 
+} 
+#input { 
+	background: #EBE547; padding: 5px; border: 1px solid #421; 
+}
+
+#close {
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	cursor: pointer;
+}
+
+#cookies {
+	bottom: 0px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	padding: 60px;
+	background-color: black;
+	opacity: 0.6;
+	left: 0px;
+	color: white;
+}
+
+#closecookies {
+	color: white;
+	left: 30%;
+	position: relative;
+	cursor: pointer;
+}
+
+#navbar {
+	top: 0px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	padding: 30px;
+	background-color: #663399;
+	left: 0px;
+	color: white;
+}

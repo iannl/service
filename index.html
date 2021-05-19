@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Customer Service bot</title>
+<script src="resources/book/book.js"></script>
+<script src="resources/scripts/main.js"></script>
+<link rel="stylesheet" href="resources/styles/common.css">
+<link rel="stylesheet" href="resources/styles/anim.css">
+<meta charset="utf-8">
+</head>
+<body>
+<div id="navbar">hi</div>
+<div id="main">
+	<div id="close" onclick="document.getElementById('main').style.display='none'">x</div>
+	<div><input id="input" type="text" placeholder="question" autocomplete="off" maxlength="23"></div>
+	<div style="display: none;">question: <span id="user"></span></div>
+	<div><span id="out">iannl's Customer Service bot</span><span id="chatbot"></span></div>
+</div>
+<div id="cookies"><div id="closecookies" onclick="document.getElementById('cookies').style.display='none'">accept</div>By using this site you accept are non-existant cookies.</div>
+<script>document.getElementById('input').addEventListener("keypress", function(e){var key = e.which || e.keyCode;if(key === 13){var input = document.getElementById("input").value;document.getElementById("user").innerHTML = input;output(input);}})</script>
+</body>
+</html>

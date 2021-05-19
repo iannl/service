@@ -1,0 +1,9 @@
+@keyframes hidediv {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes showdiv {
+    from {display: none;}
+    to {display: block;}
+}
